@@ -68,3 +68,6 @@
 [submodule "lib/arduino-lib"]
 	path = lib/arduino-lib
 	url = https://github.com/arduino/arduino-lib-mpy.git
+[submodule "ports/esp32/components/esp32-camera"]
+	path = ports/esp32/components/esp32-camera
+	url = https://github.com/espressif/esp32-camera.git
