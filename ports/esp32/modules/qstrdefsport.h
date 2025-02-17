@@ -1,0 +1,30 @@
+// Camera module QSTRs
+Q(camera)
+Q(__name__)
+Q(init)
+Q(capture)
+Q(framesize)
+Q(quality)
+Q(contrast)
+Q(colorbar)
+Q(deinit)
+
+// Camera parameters
+Q(pixformat)
+Q(fb_count)
+Q(fb_location)
+
+// Frame sizes
+Q(FRAME_96X96)
+Q(FRAME_QQVGA)
+Q(FRAME_QCIF)
+Q(FRAME_HQVGA)
+Q(FRAME_240X240)
+Q(FRAME_QVGA)
+Q(FRAME_CIF)
+Q(FRAME_VGA)
+Q(FRAME_SVGA)
+Q(FRAME_XGA)
+Q(FRAME_HD)
+Q(FRAME_SXGA)
+Q(FRAME_UXGA)

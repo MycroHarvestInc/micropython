@@ -127,6 +127,7 @@ list(APPEND MICROPY_SOURCE_PORT
     machine_rtc.c
     machine_sdcard.c
     modespnow.c
+    modules/modcamera.c
 )
 list(TRANSFORM MICROPY_SOURCE_PORT PREPEND ${MICROPY_PORT_DIR}/)
 list(APPEND MICROPY_SOURCE_PORT ${CMAKE_BINARY_DIR}/pins.c)
@@ -147,6 +148,7 @@ list(APPEND IDF_COMPONENTS
     bootloader_support
     bt
     driver
+    esp32-camera
     esp_adc
     esp_app_format
     esp_common

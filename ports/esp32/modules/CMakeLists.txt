@@ -1,0 +1,20 @@
+idf_component_register(
+    SRCS 
+        "modcamera.c"
+    INCLUDE_DIRS
+        "."
+        "${CMAKE_CURRENT_SOURCE_DIR}/.."
+        "${CMAKE_CURRENT_SOURCE_DIR}/../../../"
+        "${CMAKE_CURRENT_SOURCE_DIR}/../../../py"
+        "${CMAKE_CURRENT_SOURCE_DIR}/../boards/M5STACK_Core2"
+        "${CMAKE_CURRENT_SOURCE_DIR}/../components/esp32-camera/driver/include"
+        "${CMAKE_CURRENT_SOURCE_DIR}/../components/esp32-camera/driver/private_include"
+        "${CMAKE_CURRENT_SOURCE_DIR}/../components/esp32-camera/conversions/include"
+        "${CMAKE_CURRENT_SOURCE_DIR}/../components/esp32-camera/sensors/private_include"
+    REQUIRES
+        esp32-camera
+        driver
+        esp_system
+        freertos
+        main_esp32
+)
